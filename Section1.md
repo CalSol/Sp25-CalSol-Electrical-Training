@@ -16,9 +16,11 @@ For this training, you are going to be designing a PCB that can create PWM waves
 - [Section 5](./Section5.md) goes over the PCB layout portion of KiCad.
 - [Section 6](./Section6.md) is the bring-up portion of the training.
 
+##Deadline for returning AND new members (Sunday Feb 9th)
+
 # OFFICE HOUR TIMES
 In-person Office hours for help and checkoffs. 
 ## All Office hours will be held in Cory 246 (SuperNode)
-If you cannot enter the building call the office hour staff (numbers are on Slack profiles)
+- If you cannot enter the building call the office hour staff (numbers are on Slack profiles)
 
 <img width="889" alt="Screen Shot 2025-01-29 at 11 31 28 PM" src="https://github.com/user-attachments/assets/3bbe3627-ab6d-4832-b09b-c4615d89d8a1" />
