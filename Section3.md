@@ -37,7 +37,7 @@ As a reminder, the schematic is the digital model for how your circuits will loo
 
  Errors are fatal mistakes that compromise the integrity of your circuit. Clicking on the error will bring you to the source of the error on your schematic. It will also be marked by a red arrow on the schematic. You can ignore warnings, but for this lab, you CANNOT ignore errors. Once you have 0 errors, you’re good to move on to PCB design! Congrats!
 
- ### Exercise LED Circuits
+ ### Exercise: LED Circuits
 
  You are tasked with designing a circuit to power some Leds and here are the following circuit requirements/constraints you are given:
 
