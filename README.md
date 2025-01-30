@@ -11,8 +11,7 @@ This lab is meant to teach you the workflow of designing a PCB from scratch. You
 - [Section 5](./Section5.md) PCB Layout in KiCad
 - [Section 6](./Section6.md) Bring Up and Soldering
 
-### Main Contributors:
-Special thanks to all contributors that made this lab possible
+### Contributors:
 Ahmed A, Alex W, Eric L, Jonathan J, Matthew L
 
 
