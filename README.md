@@ -1,6 +1,7 @@
 # Sp25-Electrical-Training
 
 ## Welcome to Calsol Electrical Training!
+This lab is meant to teach you the workflow of designing a PCB from scratch. You do not need ANY prior experience in PCB design or electrical engineering to complete this lab. 
 
 ## Quick Navigation
 - [Section 1](./Section1.md) Lab Walkthrough Video
@@ -11,6 +12,7 @@
 - [Section 6](./Section6.md) Bring Up and Soldering
 
 ### Main Contributors:
+Special thanks to all contributors that made this lab possible
 Ahmed A, Alex W, Eric L, Jonathan J, Matthew L
 
 
