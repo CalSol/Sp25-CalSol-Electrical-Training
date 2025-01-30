@@ -2,7 +2,7 @@
 
 To make a good layout, you must know how to select proper components, how to place components, signal integrity, trace width and how to calculate it, decoupling capacitors, and vias. Let’s break them down for you. 
 
-# Component Selection
+## Component Selection (see more on this later)
 - Electrical Requirements:
   - Components must meet voltage, current, and power dissipation needs with safety margins
 - Footprint and Packaging
@@ -13,7 +13,7 @@ To make a good layout, you must know how to select proper components, how to pla
 - Design Specifics
   -  Select components tailored to the project
 
-### Component placement
+## Component placement
 - Place components logically: group related components in different subcircuits close together.
   - Maybe even divide the PCB into different subsections
 - Minimize trace lengths for high-speed or sensitive signals. (not applicable to this lab)
@@ -23,19 +23,19 @@ To make a good layout, you must know how to select proper components, how to pla
 - You are allowed to run traces over/under component footprints.
 - Good practice to keep boards smaller, and reduce unnecessary spacing.
 
-### Signal integrity
+## Signal integrity
 - Avoid sharp corners in traces; use 45-degree angles for bends!! (More applicable to high-speed PCB design but it is a good practice)
 - Keep high-speed signals (like clock lines) short and away from noisy traces (other high-speed signal traces).
 - Use ground planes to minimize noise and improve signal return paths.
 
-### Trace width
+## Trace width
 - Calculate trace width based on current using online calculators like PCB Trace Width Calculator.
 - Tutorial video: (https://www.youtube.com/watch?v=Jjl1qh8-0BA)
 
-### Decoupling capacitors
+## Decoupling capacitors
 - Place them as close as possible to IC power pins.
 
-### Vias
+## Vias
 - Use vias to connect traces between layers.
 - Keep via count minimal to reduce parasitics.
 
