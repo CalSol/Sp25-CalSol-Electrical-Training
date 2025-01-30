@@ -1,4 +1,4 @@
-# Section 3 - KiCad Schematic
+# Section 3: KiCad Schematic
 
 ### Setting up the Software
 
