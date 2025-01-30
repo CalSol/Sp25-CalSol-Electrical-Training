@@ -8,12 +8,11 @@ Now please follow the following [link](https://jlcpcb.com/help/article/how-to-ge
 
 Now, go upload your design onto [JCLPCB’s website](https://cart.jlcpcb.com/quote?edaOrderUrl=https%3A%2F%2Feasyeda.com%2Forder&electropolishingOnlyNo=no&achieveDate=72) to see if you have passed all their manufacturer constraints. 
 
-Your next step is to show up to any office hour timeslot (see image below) and bring up a pre-designed board. 
+## Your next step is to show up to any office hour timeslot (see image below) and bring up a pre-designed board. 
 
 In this last section, you will be assembling a PCB of the same circuit. So you will learn how to solder, use the power supply, and use an oscilloscope to verify your PWM signal. 
 
-Show up to office hours to complete the bring-up process.
-THIS IS REQUIRED to pass the lab.
-You will need to pass the layout check off beforehand.
+### Show up to office hours to complete the bring-up process. THIS IS REQUIRED to pass the lab.
+### You will need to pass the layout check off beforehand.
 
-Good luck!
+### Good luck!
