@@ -98,7 +98,7 @@ Now you must go into KiCad and fill in these constraints for KiCad can warn you 
   - Assign it to GND net.
 
 ### Design Rules Checker (DRC)
-- Enable the Design Rules Checker (DRC) to avoid placement issues.
+- Enable the Design Rules Checker (DRC) to avoid placement issues (top tool bar like ERC).
 
 ### Some shortcut buttons.
 - `M`: Move component.
@@ -107,7 +107,9 @@ Now you must go into KiCad and fill in these constraints for KiCad can warn you 
 - `X`: Route trace.
 - `V`: Add via.
 
-### Layout instructions and constraints specific to the lab. 
+# Layout instructions and constraints specific to the lab. 
+
+Here is a walkthrough [video](https://www.youtube.com/watch?v=w706tcs3EdM)
 - Refer to “Component placement” above
 - Things to be mindful of:
   - Try placing the 555 timer in the center as it has the most number of pins.
@@ -119,9 +121,10 @@ Now you must go into KiCad and fill in these constraints for KiCad can warn you 
   - Important: For the footprints of the potentiometers, you will see a huge rectangle with three holes, you are allowed to place passives (resistors, capacitors, diodes etc.) within the rectangle (so that we can save space)
     - Reason we can do this is because of the physical shape of the potentiometer: ![last](https://github.com/CalSol/Sp25-Electrical-Training/blob/main/images/last.png), as you can see, there is plenty of space under the body of the potentiometer. However, connectors, MOSFET and D4 CANNOT fit in the space under the body of the potentiometer, so make your considerations.
   - Again, try to make your board as small as possible!
+### Ask for help if you need it!
 
 # Checkpoint and Deliverables (Important!)
 After you think you have a good layout submit a screenshot of your layout along with the DRC checker to a lab staff. Or you can come get checked off during office hours (the better choice).
 
-### You will receive feedback for your layout so you might not pass in the first try!
+### You will receive feedback for your layout so you might not pass on your first try!
 
