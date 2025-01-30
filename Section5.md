@@ -109,7 +109,7 @@ Now you must go into KiCad and fill in these constraints for KiCad can warn you 
 
 # Layout instructions and constraints specific to the lab. 
 
-Here is a walkthrough [video](https://www.youtube.com/watch?v=w706tcs3EdM)
+Here is a walkthrough [video](https://www.youtube.com/watch?v=4Plw6e2EKes) (feel free to watch at a faster speed)
 - Refer to “Component placement” above
 - Things to be mindful of:
   - Try placing the 555 timer in the center as it has the most number of pins.
