@@ -17,7 +17,7 @@ For this training, you are going to be designing a PCB that can create PWM waves
 - [Section 6](./Section6.md) is the bring-up portion of the training.
 
 ## Deadline for returning AND new members (Saturday, Feb 8th at 6:00pm)
-As this is the last in-person office hours for section 6 check-off. However, based on demand we will try to extended the deadline to Sunday. 
+As this is the last in-person office hours for section 6 check-off. However, based on demand and lab staff availablity we will try to extend the deadline to Sunday. 
 
 # OFFICE HOUR TIMES
 In-person Office hours for help and checkoffs. 
