@@ -1,6 +1,7 @@
 # Design Concetps
 
-Make sure you finish section 3’s practice section before starting!
+> Make sure you finish section 3’s practice section before starting!
+
 As you may know, for this project you will be creating your own PCB for a motor controller using KiCAD. Here are the project requirements: 
 - Different ways to power and control LEDs (the schematic you made from the pervious section)
 - A potentiometer that can control the speed of a motor through a 555 timer and PWM
