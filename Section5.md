@@ -57,7 +57,7 @@ To assign footprints on KiCad, here are some things you should know.
 
 #### Components we’re using for this lab
 
-![Components](https://github.com/CalSol/Sp25-CalSol-Electrical-Training/blob/b4ff6a1d7bbd0abb0e6e2d3a1702fead607bd13e/images/Foortprint%20Assignment.png)
+![Components](https://github.com/CalSol/Sp25-CalSol-Electrical-Training/blob/ea8b3a9f7142656ea9ba4345da6d108cf24544d3/images/Footprint%20Assignment.png)
 
 - Be reminded that footprint selections vary from project to project, and for certain projects you have to make specific choices for certain components. (For example, D4 uses a through-hole component as it was the only device that matched the requirements of this project). For this project, we did the hard work for you. 
 - Sometimes KICAD might not have the footprint you want to use (for example the potentiometer we are using), to address this, there are two methods:
