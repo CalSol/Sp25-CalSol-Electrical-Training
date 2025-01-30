@@ -2,7 +2,7 @@
 
 To make a good layout, you must know how to select proper components, how to place components, signal integrity, trace width and how to calculate it, decoupling capacitors, and vias. Let’s break them down for you. 
 
-### Component Selection
+# Component Selection
 - Electrical Requirements:
   - Components must meet voltage, current, and power dissipation needs with safety margins
 - Footprint and Packaging
@@ -119,3 +119,9 @@ Now you must go into KiCad and fill in these constraints for KiCad can warn you 
   - Important: For the footprints of the potentiometers, you will see a huge rectangle with three holes, you are allowed to place passives (resistors, capacitors, diodes etc.) within the rectangle (so that we can save space)
     - Reason we can do this is because of the physical shape of the potentiometer: ![last](https://github.com/CalSol/Sp25-Electrical-Training/blob/main/images/last.png), as you can see, there is plenty of space under the body of the potentiometer. However, connectors, MOSFET and D4 CANNOT fit in the space under the body of the potentiometer, so make your considerations.
   - Again, try to make your board as small as possible!
+
+# Checkpoint and Deliverables (Important!)
+After you think you have a good layout submit a screenshot of your layout along with the DRC checker to a lab staff. Or you can come get checked off during office hours (the better choice).
+
+### You will receive feedback for your layout so you might not pass in the first try!
+
