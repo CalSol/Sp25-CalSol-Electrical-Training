@@ -120,9 +120,11 @@ Another simple component is a **switch**. A switch is a mechanical component tha
 
 ![Switch](https://github.com/user-attachments/assets/cc6b51a7-96f4-4b7e-b01a-36ccd9bbda16)
 
-### Integrated Circuits
+### Integrated Circuits (ICs)
 
 In this lab, we’ll be using an integrated circuit (IC). An integrated circuit is a chip or component that has its own subcircuits inside. In our case, we’ll be using a 555 timer. While it’s important to know WHAT an IC does, we don’t necessarily need to know HOW it works. This concept is called abstraction. If you’ve taken CS61A, you’re very familiar with this concept. 
+
+<img width="939" alt="Screen Shot 2025-01-29 at 9 18 27 PM" src="https://github.com/user-attachments/assets/a01d96a9-a736-467e-ba74-94677d9c2801" /> (examples of different IC packages)
 
 For example, many of you may have worked with Arduinos in the past. The Arduino is made up of a number of complex and interconnected circuits, but we don’t actually have to know anything about these circuits to work with the Arduino. All we need to know is that it has input and output pins and can be used as a power source, among other things. In the same way, while we don’t need to explicitly understand what is going on inside our 555 timer, we can still use it in our circuit by abstracting its use to a timer that can be used to control a motor driver. 
 
