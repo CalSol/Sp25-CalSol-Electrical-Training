@@ -1,5 +1,5 @@
 # Section 6: Bring Up
-Congratulations!! You finished the design of your PCB!We do not expect you to buy your own board, instead, we have naked PCBs already designed and ordered by our lovely CalSol team. 
+Congratulations! You have finished designing your PCB! We do not expect you to buy your own board; instead, our lovely CalSol team has already designed and ordered naked PCBs. 
 
 What does bring-up mean?
 Bring up means to assemble, test, program, and debug to make sure the design is satisfactory and meets all requirements.
