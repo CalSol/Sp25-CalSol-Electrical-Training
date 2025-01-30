@@ -16,3 +16,5 @@ In this last section, you will be assembling a PCB of the same circuit. So you w
 ### You will need to pass the layout check off beforehand.
 
 ### Good luck!
+
+<img width="882" alt="Screen Shot 2025-01-29 at 11 34 42 PM" src="https://github.com/user-attachments/assets/77ff1580-a635-403e-8f23-3b6b1336fec3" />
