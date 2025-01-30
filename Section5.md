@@ -40,7 +40,9 @@ To make a good layout, you must know how to select proper components, how to pla
 - Keep via count minimal to reduce parasitics.
 
 # How to assign footprints?
-To assign footprints on KiCad, here are some things you should know.
+Here are some things you should know when assigning footprints on KiCad.
+#### Why assign footprints?
+In section 4 you had symbols of different electrical components, but each component can come in many different sizes and packages. (Ex a resistor of 1k Ohmns can come in a tiny size, a huge size, a different power rating, etc). So we need to tell KiCad which footprints (or specific component size) we are using for each component we added in our schematic. 
 
 ### For passive components (resistors, capacitors, etc)
   - There are standard component sizes
