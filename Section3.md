@@ -44,6 +44,7 @@ As a reminder, the schematic is the digital model for how your circuits will loo
  LED
  - 3V drop
  - Needs roughly  20 mA 
+ 
  12V power source 
 
  Think about how you would accomplish this!
