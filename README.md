@@ -14,7 +14,7 @@ This lab is meant to teach you the workflow of designing a PCB from scratch. You
 ### Contributors:
 Ahmed A, Alex W, Eric L, Jonathan J, Matthew L
 
-###Credit
+### Credit
 This lab is inspired and uses content from the "The Engineering Mindset" YT channel.
 
 
