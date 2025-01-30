@@ -1,4 +1,4 @@
-# Section 4: Design Concetps
+# Section 4: PWM Driver Design Concepts and Schematic
 
 > Make sure you finish section 3’s practice section before starting!
 > And also make sure you've watched this [video](https://www.youtube.com/watch?v=UPTU6nYSaMo&t=860s) before starting on this section!
