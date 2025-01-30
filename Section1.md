@@ -6,7 +6,7 @@ For this training, you are going to be designing a PCB that can create PWM waves
 
 ### Here is a lab walkthrough video:
 
-[Walkthrough Video](https://www.youtube.com/watch?v=soKTIUCnrx4)
+[Walkthrough Video]([https://www.youtube.com/watch?v=soKTIUCnrx4](https://www.youtube.com/watch?v=7nmz1k9MV_c))
 
 
 ### Here is a general overview of the training:
