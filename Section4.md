@@ -6,6 +6,7 @@
 As you may know, for this project you will be creating your own PCB for a motor controller using KiCAD. Here are the project requirements: 
 - Different ways to power and control LEDs (the schematic you made from the previous section)
 - A potentiometer that can control the speed of a motor through a 555 timer and PWM
+- Your board will be powered off an external 12V supply with a connector.
 
 However, there are a few concepts you should understand first.
 
