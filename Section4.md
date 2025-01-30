@@ -1,14 +1,15 @@
 # Section 4: Design Concetps
 
 > Make sure you finish section 3’s practice section before starting!
+> And also make sure you've watched this [video](https://www.youtube.com/watch?v=UPTU6nYSaMo&t=860s) before starting on this section!
 
 As you may know, for this project you will be creating your own PCB for a motor controller using KiCAD. Here are the project requirements: 
-- Different ways to power and control LEDs (the schematic you made from the pervious section)
+- Different ways to power and control LEDs (the schematic you made from the previous section)
 - A potentiometer that can control the speed of a motor through a 555 timer and PWM
 
 However, there are a few concepts you should understand first.
 
-### Pulse Width Modulation
+## Pulse Width Modulation
 
 PWM (Pulse Width Modulation) is a technique used to control the power delivered to electronic devices. It works by switching a signal between high (on) and low (off) states at a fast rate, allowing us to average the power. The duty cycle (the percentage of time the signal is high) determines the effective average power. For example, PWM could be used to control the brightness of an LED, lamp, or the speed of a motor.
 
@@ -17,7 +18,7 @@ How it works:
 - A lower duty cycle (e.g., 25% high, 75% low) delivers less power.
 - This is efficient because the switching circuit dissipates very little power, as it is either fully on or fully off.
 
-### 555 Timer
+## 555 Timer
 The 555 timer is a versatile integrated circuit used for timing, pulse generation, and oscillator applications. For example, 555 timers can be used for generating clock pulses for circuits. The key skill to use here is abstraction from section 2!
 You can check out the datasheet if you are interested.
 
@@ -25,7 +26,7 @@ How to use it:
 - Internally, it uses voltage comparators, a flip-flop, and a discharge transistor. 
 - By configuring external resistors and capacitors, you set the timing intervals. 
 
-### RC Circuit
+## RC Circuit
 An RC circuit is a circuit consisting of a resistor (R) and a capacitor (C). It can be used for filtering and timing. In our case, we use it as a timer.
 How it works: 
 - The capacitor charges and discharges through the resistor, with the rate determined by the time constant. 
@@ -39,7 +40,7 @@ How it works:
 - They are placed near integrated circuits (ICs) to filter out noise and provide instantaneous current during transient demands. 
 - When the supply voltage fluctuates, the capacitor absorbs or supplies charge, maintaining a stable voltage. 
 
-### MOSFETs
+## MOSFETs
 A MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is a type of transistor used as a switch or amplifier in electronic circuits. For example, MOSFETs are used for switching power to a motor or amplifying audio signals. 
 In our case we use it as a switch for the motor or light bulb we are powering to create our on and off PWM signal.
 
