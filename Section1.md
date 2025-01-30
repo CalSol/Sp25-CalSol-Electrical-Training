@@ -2,7 +2,7 @@
 
 Welcome to the CalSol Electrical subteam! To ensure everybody starts off on the same page, we ask that you complete this training.
 
-For this training, you are going to be designing PCB for a motor controller. This is a very integral part of CalSol, as we need to be able to control the speed of the electric motors in the car at all times.
+For this training, you are going to be designing a PCB for a motor controller. This is a very integral part of CalSol, as we need to be able to control the speed of the electric motors in the car at all times.
 
 Here is a general overview of the training:
 - [Section 2](./Section2.md) is an overview of basic electrical concepts you will learn in classes EECS 16A/B. If you have already taken those classes, feel free to take a look over the document as a refresher.
