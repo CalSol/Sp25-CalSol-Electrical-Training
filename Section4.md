@@ -66,4 +66,6 @@ MOSFET gate resistors are used for:
 - Ask for help if you need it!
 Lab Staff to reach out to: Ahmed A, Alex W, David N, Eric L, Jonathan J, Matthew L, Sina K
 
+(Please note in the image below, the led circuit on the left should be the led circuits you made from section 3)
+
 ![Onboarding Lab Schematic](https://github.com/user-attachments/assets/a69d805a-5a81-40b7-b31b-0eb244053f46)
