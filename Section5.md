@@ -124,7 +124,7 @@ Here is a walkthrough [video](https://www.youtube.com/watch?v=w706tcs3EdM)
 ### Ask for help if you need it!
 
 # Checkpoint and Deliverables (Important!)
-After you think you have a good layout submit a screenshot of your layout along with the DRC checker to a lab staff. Or you can come get checked off during office hours (the better choice).
+As you can see, unlike the schematic, there is no pre-designed layout for you to follow (this is where learning happens!). After you think you have a good layout submit a screenshot of your layout along with the DRC checker to a lab staff. Or you can come get checked off during office hours (the better choice).
 
 ### You will receive feedback for your layout so you might not pass on your first try!
 
