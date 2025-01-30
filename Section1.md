@@ -15,3 +15,9 @@ For this training, you are going to be designing a PCB that can create PWM waves
 - [Section 4](./Section4.md) goes over key concepts in a motor controller such as PWM, MOSFETs, and 555 timers.
 - [Section 5](./Section5.md) goes over the PCB layout portion of KiCad.
 - [Section 6](./Section6.md) is the bring-up portion of the training.
+
+# OFFICE HOUR TIMES
+In-person Office hours for help and checkoffs. 
+## All Office hours will be held in Cory 246 (SuperNode)
+If you cannot enter the building call the office hour staff (numbers are on Slack profiles)
+<img width="945" alt="Screen Shot 2025-01-29 at 11 21 19 PM" src="https://github.com/user-attachments/assets/00804a4e-9c38-4b24-a845-e75ca0aeeb60" />
