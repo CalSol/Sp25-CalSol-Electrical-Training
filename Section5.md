@@ -75,7 +75,7 @@ So how do we do this on KiCAD? Let’s find out! Below is everything you need to
 - Each PCB manufacturer will have different manufacturing tolerances (for example they can’t make via holes smaller than 0.02mm)
 - For this project we will be following JCLPCB’s rigid pcb manufacturing constraints seen here (https://jlcpcb.com/capabilities/pcb-capabilities)
 Now you must go into KiCad and fill in these constraints for KiCad can warn you with the DRC checker if you are making a fatal mistake. You can follow the link here: (https://learn.pcbcupid.com/pcb-design/kicad-tutorial/kicad-constraints-net-class-directive/#:~:text=Constraints%E2%80%8B&text=Go%20to%20the%20board%20setup,design%20within%20the%20manufacturing%20limit).
-
+- You can also look at this [video](https://www.youtube.com/watch?v=Fv9zQ3nkLqk&list=PLn6004q9oeqGl91KifK6xHGuqvXGb374G&index=8) about how to change the constraints in setting. 
  
 ### How do draw edge cuts in KiCad
 - Use the Edge.Cuts Layer to define the PCB's size, shape, and outline.
