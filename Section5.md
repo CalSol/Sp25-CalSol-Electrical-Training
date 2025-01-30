@@ -1,8 +1,8 @@
-**1) How do you make a good layout?**
+# **1) How do you make a good layout?**
 
 To make a good layout, you must know how to select proper components, how to place components, signal integrity, trace width and how to calculate it, decoupling capacitors, and vias. Let’s break them down for you. 
 
-**a) Component selection**
+## **a) Component selection**
 - Electrical Requirements:
   - Components must meet voltage, current, and power dissipation needs with safety margins
 - Footprint and Packaging
@@ -13,7 +13,7 @@ To make a good layout, you must know how to select proper components, how to pla
 - Design Specifics
   -  Select components tailored to the project
 
-**b) Component placement!!!**
+## **b) Component placement!!!**
 - Place components logically: group related components in different subcircuits close together.
   - Maybe even divide the PCB into different subsections
 - Minimize trace lengths for high-speed or sensitive signals. (not applicable to this lab)
@@ -23,41 +23,41 @@ To make a good layout, you must know how to select proper components, how to pla
 - You are allowed to run traces over/under component footprints.
 - Good practice to keep boards smaller, and reduce unnecessary spacing.
 
-**c) Signal integrity**
+## **c) Signal integrity**
 - Avoid sharp corners in traces; use 45-degree angles for bends!! (More applicable to high-speed PCB design but it is a good practice)
 - Keep high-speed signals (like clock lines) short and away from noisy traces (other high-speed signal traces).
 - Use ground planes to minimize noise and improve signal return paths.
 
-**d) Trace width**
+## **d) Trace width**
 - Calculate trace width based on current using online calculators like PCB Trace Width Calculator.
 - Tutorial video: (https://www.youtube.com/watch?v=Jjl1qh8-0BA)
 
-**e) Decoupling capacitors**
+## **e) Decoupling capacitors**
 - Place them as close as possible to IC power pins.
 
-**f) Vias**
+## **f) Vias**
 - Use vias to connect traces between layers.
 - Keep via count minimal to reduce parasitics.
 
-**2) How to assign footprints?**\
-To assign footprints on kids, here are some things you should know.
+# **2) How to assign footprints?**
+To assign footprints on KiCad, here are some things you should know.
 
-**a) Footprint assignment in KiCAD**
+## **a) Footprint assignment in KiCAD**
 
 **i) For passive components (resistors, capacitors, etc)**
   - There are standard component sizes
   - Search for components on DigiKey or Mouser by filtering parameters such as package type, value, and voltage ratings
   - Read the datasheet to see if they use a standard package.
   
-**ii) For CalSol we use 603 footprint size for all passives (resistor and capacitor)**
+## **ii) For CalSol we use 603 handsolder footprint size for all passives (resistor and capacitor)**
   
-**iii) Surface Mounted Devices (SMD) vs Through-hole Technology**
+## **iii) Surface Mounted Devices (SMD) vs Through-hole Technology**
   - SMD’s are components that connect directly to pads on the board on the top surface/
     - Smaller (save space), generally more expensive, easier industrial assembly
   - THT’s are components that connect through drilled holes on the board
     - Larger, generally cheaper, easier to hand solder, withstands mechanical stress better
 
-**b)Components we’re using for this lab**
+## **b)Components we’re using for this lab**
 
 ![1](https://github.com/CalSol/Sp25-Electrical-Training/blob/main/images/1.png)
 
@@ -70,43 +70,46 @@ To assign footprints on kids, here are some things you should know.
       - (https://www.youtube.com/watch?v=W9cLnIjvybo)
 - Link for the potentiometer footprint: (https://www.digikey.com/en/models/2408877)
 
-**3) Layouts on KiCAD:**\
+# **3) Layouts on KiCAD:**\
 So how do we do this on KiCAD? Let’s find out! Below is everything you need to know in order to achieve this. But make sure you have footprints correctly assigned! 
 
-a) How to fill in constraints. 
+## a) How to fill in constraints. 
 - Each PCB manufacturer will have different manufacturing tolerances (for example they can’t make via holes smaller than 0.02mm)
 - For this project we will be following JCLPCB’s rigid pcb manufacturing constraints seen here (https://jlcpcb.com/capabilities/pcb-capabilities)
 Now you must go into KiCad and fill in these constraints for KiCad can warn you with the DRC checker if you are making a fatal mistake. You can follow the link here: (https://learn.pcbcupid.com/pcb-design/kicad-tutorial/kicad-constraints-net-class-directive/#:~:text=Constraints%E2%80%8B&text=Go%20to%20the%20board%20setup,design%20within%20the%20manufacturing%20limit).
 
  
-b) How do draw edge cuts in KiCad
-- Use the Edge.Cuts Layer to define the PCB outline.
+## b) How do draw edge cuts in KiCad
+- Use the Edge.Cuts Layer to define the PCB's size, shape, and outline.
 - Draw using the Line Tool.
 
-c) Layers in KiCad
+## c) Layers in KiCad
 - Top Layer: Components and traces.
 - Bottom Layer: Ground plane and additional traces.
 - Use the Layer Manager to switch between layers.
 
-d) Traces, vias in KiCad
+## d) Traces, vias in KiCad
 - Use the Route Tracks Tool to connect components.
-- Switch layers by adding vias.
+- Switch layers by adding vias (make sure they're bigger than JCLPCB's min size!).
+- When adding vias you have to define what "node" or "net" the via belongs to! You can press "e" to change its properties. 
 - Follow trace width guidelines from earlier.
 
-e) Filling planes
+## e) Filling planes
 - Add a ground plane on the bottom layer
   - Use the Add Filled Zone Tool.
   - Assign it to GND net.
 
-f) Design Rules Checker (DRC)
+## f) Design Rules Checker (DRC)
 - Enable the Design Rules Checker (DRC) to avoid placement issues.
 
-g) Some shortcut buttons.
+## g) Some shortcut buttons.
 - "M": Move component.
+- "R": Rotate component.
+- "B": to fill in fill tools. 
 - "X": Route trace.
 - "V": Add via.
 
-h) Layout instructions and constraints specific to the lab. 
+## h) Layout instructions and constraints specific to the lab. 
 - Refer to “Component placement” above
 - Things to be mindful of:
   - Try placing the 555 timer in the center as it has the most number of pins.
