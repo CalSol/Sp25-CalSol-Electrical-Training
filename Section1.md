@@ -1,4 +1,4 @@
-# Introduction
+# Section 1: Introduction
 
 Welcome to the CalSol Electrical subteam! To ensure everybody starts off on the same page, we ask that you complete this training.
 
