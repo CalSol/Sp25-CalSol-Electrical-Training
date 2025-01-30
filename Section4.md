@@ -1,4 +1,4 @@
-# Design Concetps
+# Section 4: Design Concetps
 
 > Make sure you finish section 3’s practice section before starting!
 
