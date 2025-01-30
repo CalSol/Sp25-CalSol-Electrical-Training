@@ -56,3 +56,12 @@ MOSFET gate resistors are used for:
 - A gate resistor is used to limit the current into the MOSFET’s gate when switching.
 - This helps prevent Damage to the MOSFET from high inrush current and excessive ringing caused by fast switching and parasitic inductance
 - They lead to smoother operation in PWM-controlled circuits. 
+
+# Checkpoint and Deliverables (IMPORTANT!)
+- In the same file that you made the 3 Led circuits, you will be building your PWM driver (motor controller) circuit.
+- You will be building the same functional circuit as the image below (doesn't have to be a carbon copy)!
+- Make sure to run the ERC checker (top toolbar) to make sure KiCad is happy about your schematic!
+- For CalSol members, take a screenshot of your circuit (both LED and PWM driver) and ERC checker to a lab staff to move on to the next section once your circuit is approved!
+- Ask for help if you need it!
+Lab Staff to reach out to: Ahmed A, Alex W, David N, Eric L, Jonathan J, Matthew L, Sina K
+
