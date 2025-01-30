@@ -61,7 +61,7 @@ As a reminder, the schematic is the digital model for how your circuits will loo
 
  What you would notice if you actually made this circuit in real life is that the LED is much dimmer than it is supposed to be; it’s not a great way to create a simple LED circuit! Take a moment to think about the drawbacks of this circuit and why we might not want to use it to power our LED (even if you didn’t think of this solution, imagine explaining why this circuit is not ideal to another student!)
 
- >! Answer: this circuit assumes that the LED has no internal resistance. However, we know from the fact that it has a 3V drop that it in fact does. This means that, when we add our LED to the voltage divider, we are essentially adding the LED and R2 in parallel, lowering the equivalent resistance. Therefore, if we recalculate the voltage drop across the LED, we’ll find that it’s actually lower than 3V, making the LED dimmer than it should be. Another way of thinking about this is that we are assuming that no current flows through the LED which, in reality, is not the case.
+ > Answer: this circuit assumes that the LED has no internal resistance. However, we know from the fact that it has a 3V drop that it in fact does. This means that, when we add our LED to the voltage divider, we are essentially adding the LED and R2 in parallel, lowering the equivalent resistance. Therefore, if we recalculate the voltage drop across the LED, we’ll find that it’s actually lower than 3V, making the LED dimmer than it should be. Another way of thinking about this is that we are assuming that no current flows through the LED which, in reality, is not the case.
 
  ### Practice 
 
