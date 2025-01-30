@@ -42,8 +42,8 @@ As a reminder, the schematic is the digital model for how your circuits will loo
  You are tasked with designing a circuit to power some Leds and here are the following circuit requirements/constraints you are given:
 
 - Three LEDs
- - 3V drop
- - Needs roughly  20 mA 
+  - that has a 3V drop
+  - Needs roughly 20 mA 
  
  - A 12V power source 
 
@@ -51,7 +51,7 @@ As a reminder, the schematic is the digital model for how your circuits will loo
 
  #### Naive Approach
 
- Let’s imagine that you want to use the voltage divider we learned about in Section 2 to meet the 3V requirement for the LED. Start by constructing a voltage divider: 
+ Let’s imagine that you want to use the voltage divider we learned about in Section 2 to meet the 3V requirement for a signal LED. Start by constructing a voltage divider: 
 
  ![Voltage Divider](./images/voltage_divder.png)
 
