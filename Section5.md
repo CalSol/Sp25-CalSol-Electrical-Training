@@ -59,11 +59,12 @@ To assign footprints on kids, here are some things you should know.
 
 **b)Components we’re using for this lab**
 
+![1](https://github.com/CalSol/Sp25-Electrical-Training/blob/main/images/1.png)
 
 - Be reminded that footprint selections vary from project to project, and for certain projects you have to make specific choices for certain components. (For example, D4 uses a through-hole component as it was the only device that matched the requirements of this project). For this project, we did the hard work for you. 
 - Sometimes KICAD might not have the footprint you want to use (for example the potentiometer we are using), to address this, there are two methods:
     - Download online
-      - In short: Search online for the specific component - download the footprint - go to PCB Layout Editor - Preferences(Toolbar) - Manage Footprint Libraries -  - open the file that ends with .pretty - OK
+      - In short: Search online for the specific component - download the footprint - go to PCB Layout Editor - Preferences(Toolbar) - Manage Footprint Libraries - ![2](https://github.com/CalSol/Sp25-Electrical-Training/blob/main/images/2.png) - open the file that ends with .pretty - OK
       - A Video that might help: (https://www.youtube.com/watch?v=W9cLnIjvybo)
     - Create a footprint by yourself
       - (https://www.youtube.com/watch?v=W9cLnIjvybo)
@@ -115,5 +116,5 @@ h) Layout instructions and constraints specific to the lab.
   - Connect all the GND pads to GND vias instead of connecting all the GND pads together.
     - To do so: Add a via next to your GND pad, select the via and press E on your keyboard, select GND for the dropdown named “Net”, and connect the GND pad to the GND via (Repeat this procedure for all GND pads)
   - Important: For the footprints of the potentiometers, you will see a huge rectangle with three holes, you are allowed to place passives (resistors, capacitors, diodes etc.) within the rectangle (so that we can save space)
-    - Reason we can do this is because of the physical shape of the potentiometer: , as you can see, there is plenty of space under the body of the potentiometer. However, connectors, MOSFET and D4 CANNOT fit in the space under the body of the potentiometer, so make your considerations.
+    - Reason we can do this is because of the physical shape of the potentiometer: ![last](https://github.com/CalSol/Sp25-Electrical-Training/blob/main/images/last.png), as you can see, there is plenty of space under the body of the potentiometer. However, connectors, MOSFET and D4 CANNOT fit in the space under the body of the potentiometer, so make your considerations.
   - Again, try to make your board as small as possible!
