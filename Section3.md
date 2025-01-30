@@ -41,11 +41,11 @@ As a reminder, the schematic is the digital model for how your circuits will loo
 
  You are tasked with designing a circuit to power some Leds and here are the following circuit requirements/constraints you are given:
 
- LED
+- Three LEDs
  - 3V drop
  - Needs roughly  20 mA 
  
- 12V power source 
+ - A 12V power source 
 
  Think about how you would accomplish this!
 
