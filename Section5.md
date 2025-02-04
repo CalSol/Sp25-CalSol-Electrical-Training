@@ -61,14 +61,14 @@ In section 4 you had symbols of different electrical components, but each compon
 
 ![Components](https://github.com/CalSol/Sp25-CalSol-Electrical-Training/blob/ea8b3a9f7142656ea9ba4345da6d108cf24544d3/images/Footprint%20Assignment.png)
 
-- Be reminded that footprint selections vary from project to project, and for certain projects you have to make specific choices for certain components. (For example, D4 uses a through-hole component as it was the only device that matched the requirements of this project). For this project, we did the hard work for you. 
+- Be reminded that footprint selections vary from project to project, and for certain projects you have to make specific choices for certain components. (For example, D4 (diode used for motor circuit) uses a through-hole component as it was the only device that matched the requirements of this project). For this project, we did the hard work for you. 
 - Sometimes KICAD might not have the footprint you want to use (for example the potentiometer we are using), to address this, there are two methods:
     - Download online
       - In short: Search online for the specific component - download the footprint - go to PCB Layout Editor - Preferences(Toolbar) - Manage Footprint Libraries - ![2](https://github.com/CalSol/Sp25-Electrical-Training/blob/main/images/2.png) - open the file that ends with .pretty - OK
       - A Video that might help: (https://www.youtube.com/watch?v=W9cLnIjvybo)
     - Create a footprint by yourself
       - (https://www.youtube.com/watch?v=W9cLnIjvybo)
-- Link for the potentiometer footprint: (https://www.digikey.com/en/models/2408877)
+- Link for the potentiometer footprint: (https://www.digikey.com/en/models/2408877) (The schematic from Section 4 has wrong symbols for the potentiometer that we are using.)
 
 ### Layouts on KiCAD:
 So how do we do this on KiCAD? Let’s find out! Below is everything you need to know in order to achieve this. But make sure you have footprints correctly assigned! 
@@ -116,13 +116,15 @@ Here is another [helpful YT link](http://youtube.com/watch?v=3FGNw28xBr0&t=399s)
 - Refer to “Component placement” above
 - Things to be mindful of:
   - Try placing the 555 timer in the center as it has the most number of pins.
-  - Try to put the components that belong to the same subcircuit on the same section of the board
-  - When routing, maintain a sufficient distance (if possible) between the trace and pads/holes/vias, since not doing so -   - might result in error for DRC (Design rule checker) due to the constraints filled in
+  - Try to put the components that belong to the same subcircuit on the same section of the board.
+  - When routing, maintain a sufficient distance (if possible) between the trace and pads/holes/vias, since not doing so -   - might result in error for DRC (Design rule checker) due to the constraints filled in.
+  - Use thicker copper trace width for +12V and Net-(D9-A).
   - Try to avoid using vias, but if inevitable, try to make the length of the trace between two vias as short as possible(Blue trace), that is to say, position your vias close to the intersection but not too close.
   - Connect all the GND pads to GND vias instead of connecting all the GND pads together.
     - To do so: Add a via next to your GND pad, select the via and press E on your keyboard, select GND for the dropdown named “Net”, and connect the GND pad to the GND via (Repeat this procedure for all GND pads)
   - Important: For the footprints of the potentiometers, you will see a huge rectangle with three holes, you are allowed to place passives (resistors, capacitors, diodes etc.) within the rectangle (so that we can save space)
     - Reason we can do this is because of the physical shape of the potentiometer: ![last](https://github.com/CalSol/Sp25-Electrical-Training/blob/main/images/last.png), as you can see, there is plenty of space under the body of the potentiometer. However, connectors, MOSFET and D4 CANNOT fit in the space under the body of the potentiometer, so make your considerations.
+> Tip: You can hang the ends of the potentiometers off the edge to save space. (i.e. - cut the empty space of potentiometer footprint when defining the PCB size using Edge.cuts)
   - Again, try to make your board as small as possible!
 ### Ask for help if you need it!
 
