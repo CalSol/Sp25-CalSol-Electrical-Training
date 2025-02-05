@@ -23,5 +23,6 @@ As this is the last in-person office hours for section 6 check-off. However, bas
 In-person Office hours for help and checkoffs. 
 ## All Office hours will be held in Cory 246 (SuperNode)
 - If you cannot enter the building call the office hour staff (numbers are on Slack profiles)
+  
+<img width="936" alt="Screen Shot 2025-02-05 at 11 15 25 AM" src="https://github.com/user-attachments/assets/aedb084f-ea11-42df-94d7-ce46dba04116" />
 
-<img width="889" alt="Screen Shot 2025-01-29 at 11 31 28 PM" src="https://github.com/user-attachments/assets/3bbe3627-ab6d-4832-b09b-c4615d89d8a1" />
